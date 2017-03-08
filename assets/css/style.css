@@ -1,0 +1,71 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+		background-image: url("../images/backgroundimg.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+}
+
+.jumbotron {
+	background-color: #008B8B;
+	border-bottom: 3px solid #BC8F8F;
+}
+
+h1 {
+	text-shadow: 3px 2px #BC8F8F;
+}
+
+form {
+	background-color: #BC8F8F;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+label {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 15px;
+}
+
+input {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 15px;
+}
+
+#add-sport {
+	cursor: pointer;
+}
+
+.main-container {
+	margin-left: 50px;
+}
+
+.sport {
+	margin: 5px;
+	background-color: #008B8B;
+	border-color: #BC8F8F;
+	color: black;
+	font-weight: bold;
+}
+
+p {
+	font-weight: bold;
+	text-align: center;
+}
+
+#gifcontainer {
+	margin-top: 20px;
+}
+
+.gifDiv {
+	float: left;
+	margin: 10px;
+}
+
+img {
+	border-radius: 10px;
+}
+

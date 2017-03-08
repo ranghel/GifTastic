@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sports Gifs</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Linking style.css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Sports Gifs</h1>
+			<h4>Click on the buttons below to see some cool gifs</h4>
+		</div>
+	</div>
+
+	<div class="main-container">
+		<div class="col-md-4 col-md-offset-2">
+			<form id="sport-form">
+				<label for="user-input">Add your favorite sports!</label><br>
+				<input type="text" id="user-input"><br>
+				<input id="add-sport" type="submit" value="Submit">
+			</form>
+		</div>
+
+		<div class="col-md-8" id="gifbuttons">
+			<section id="buttons"></section>
+		</div>
+		<div class="col-md-8" id="gifs">
+			<section id="gifcontainer"></section>
+		</div>
+
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+</html>
