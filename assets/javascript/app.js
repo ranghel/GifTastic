@@ -6,7 +6,7 @@ $(document).ready(function() {
 	// Display all the gifs 
 	function gifsDisplay() {
 		var sport = $(this).attr("data-name");
-		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + sport + "&api_key=dc6zaTOxFJmzC&limit=10";
+		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + sport + "&api_key=dc6zaTOxFJmzC&limit=10";
 
 		// Creating an AJAX call for the specific sport button that is clicked
 		$.ajax({
