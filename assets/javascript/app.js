@@ -22,8 +22,8 @@ $(document).ready(function() {
 				var gifDiv = $("<div>");
 				gifDiv.addClass("gifDiv"); // added class for styling purposes
 				// Getting the rating and creating the element to hold the rating
-				var rating = $("<p>").text("Rating: " + results[i].rating);
-				gifDiv.append(rating);
+				//var rating = $("<p>").text("Rating: " + results[i].rating);
+				//gifDiv.append(rating);
 				// Getting gif images
 				var image = $("<img>");
 				image.attr("src", results[i].images.fixed_height_small_still.url);
@@ -33,6 +33,9 @@ $(document).ready(function() {
 				image.addClass("image");
 				gifDiv.append(image);
 				$("#gifcontainer").prepend(gifDiv);
+				// Getting the rating and creating the element to hold the rating
+				var rating = $("<p>").text("Rating: " + results[i].rating);
+				gifDiv.append(rating);
 
 			}
 		});
